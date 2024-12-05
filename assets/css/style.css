@@ -17,6 +17,38 @@ body {
     background-color: var(--brand-dark);
 }
 
+    /* Link styles */
+a {
+    text-decoration: none;
+    color: var(--brand-yellow)
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--brand-lgrey);
+}
+
+/* Navigation */
+ nav {
+    background-color: var(--brand-dark);
+    color: var(--brand-yellow);
+
+ }
+
+ #nav-toggle-icon {
+    font-size: 2.5rem;
+ }
+ nav ul {
+    list-style: none;  
+ }
+ 
+ nav ul li {
+    font-size: 2rem;
+ }
+
 
 
 /*  Media queries */
