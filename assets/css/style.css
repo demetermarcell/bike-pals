@@ -1,3 +1,34 @@
+/*Google Font: Space Grotesk */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* CSS Variables */
+:root {
+
+--brand-font: "Space Grotesk", sans-serif;
+--brand-dark: #181819 ; /* erie black*/
+--brand-dgrey: #3B3B3B ; /* dark grey */
+--brand-yellow: #E19D1F ; /* mustard */
+--brand-lgrey: #C0C0C0 ; /* light grey */
+}
+
+/* Global styles */
 body {
-    background-color: aqua;
+    font-family: var(--brand-font);
+    background-color: var(--brand-dark);
+}
+
+
+
+/*  Media queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+}
+
+/* Large devices *small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+
+/*  XL devices *laptops, 1200px and up) */
+@media screen and (min-width: 1200px) {
 }
