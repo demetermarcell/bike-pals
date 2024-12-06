@@ -4,11 +4,15 @@
 /* CSS Variables */
 :root {
 
---brand-font: "Space Grotesk", sans-serif;
---brand-dark: #181819 ; /* erie black*/
---brand-dgrey: #3B3B3B ; /* dark grey */
---brand-yellow: #E19D1F ; /* mustard */
---brand-lgrey: #C0C0C0 ; /* light grey */
+    --brand-font: "Space Grotesk", sans-serif;
+    --brand-dark: #181819;
+    /* erie black*/
+    --brand-dgrey: #3B3B3B;
+    /* dark grey */
+    --brand-yellow: #E19D1F;
+    /* mustard */
+    --brand-lgrey: #C0C0C0;
+    /* light grey */
 }
 
 /* Default overrides */
@@ -23,7 +27,7 @@ body {
     background-color: var(--brand-dgrey);
 }
 
-    /* Link styles */
+/* Link styles */
 a {
     text-decoration: none;
     color: var(--brand-yellow)
@@ -38,47 +42,57 @@ a:active {
 }
 
 /* Navigation */
- nav {
+nav {
     background-color: var(--brand-dark);
     color: var(--brand-yellow);
-    display: flex;
-    justify-content:  space-between;
-    align-items: center;
-    
+    position: sticky;
+}
 
- }
+nav div {
+    display: grid;
+    grid-template-columns: 2.5rem auto 2.5rem;
+    margin: 0 1rem;
+}
 
- #nav-toggle-icon {
-    font-size: 2.5rem;
-    padding: 0 1rem;
- }
-
- nav ul {
-    list-style: none; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    top: 55px;
-    padding: 0.5rem 0;
-    background-color: rgb(24, 24, 25, 0.7);
-    z-index: 99;
-    
-    
- }
- 
- nav ul li {
-    font-size: 2rem;
- }
-
+/* Hide Checkbox */
 #nav-toggle {
     display: none;
 }
 
-#nav-toggle:checked ul {
-    display: none;
+/* Menu Bar Icon style */
+#nav-toggle-icon {
+    align-self: start;
+    font-size: 2.5rem;
+    cursor: pointer;
+    align-content: center;
+}
+
+/* Brand Logo Style */
+nav>div>a {
+
+    justify-self: center;
+
+}
+
+/* Menu Options Style */
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    padding: 0.5rem 0;
+    background-color: rgb(24, 24, 25, 0.7);
+    z-index: 99;
+
+
+}
+
+nav ul li {
+    font-size: 2rem;
+    text-align: center;
 }
 
 /* Header */
@@ -87,7 +101,6 @@ a:active {
     height: 700px;
     width: 100%;
     max-width: 820px;
-    position: absolute;
     z-index: 1;
 
 }
@@ -95,13 +108,10 @@ a:active {
 /*  Media queries */
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-}
+@media screen and (min-width: 768px) {}
 
 /* Large devices *small laptops, 992px and up) */
-@media screen and (min-width: 992px) {
-}
+@media screen and (min-width: 992px) {}
 
 /*  XL devices *laptops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-}
+@media screen and (min-width: 1200px) {}
