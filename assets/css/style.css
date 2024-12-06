@@ -41,6 +41,28 @@ a:active {
     color: var(--brand-lgrey);
 }
 
+ /* Button Style */
+.button {
+    color: var(--brand-dark);
+    background-color: var(--brand-yellow);
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 1.5rem 0;
+}
+
+.button:hover {
+    color: var(--brand-yellow);
+    background-color: var(--brand-dark);
+    border: 2px solid var(--brand-yellow);
+    text-decoration: none;
+}
+
+.button:active {
+    color: var(--brand-dark);
+    background-color: var(--brand-lgrey);
+    border: 0;
+}
+
 /* Navigation */
 nav {
     background-color: var(--brand-dark);
@@ -81,10 +103,11 @@ ul {
     flex-direction: column;
     align-self: center;
     width: 100%;
+    height: auto;
     position: absolute;
     top: 1.5rem;
     padding: 0.5rem 0;
-    background-color: rgb(24, 24, 25, 0.7);
+    background-color: rgb(24, 24, 25, 0.8);
     z-index: 98;
     visibility: hidden;
     opacity: 0; 
@@ -100,6 +123,7 @@ ul {
 ul li {
     font-size: 2rem;
     text-align: center;
+    margin: 1.5rem 0 ;
 }
 
 /* Header */
