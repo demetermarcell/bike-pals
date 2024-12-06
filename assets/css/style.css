@@ -41,13 +41,14 @@ a:active {
     color: var(--brand-lgrey);
 }
 
- /* Button Style */
+ /* Button styles */
 .button {
     color: var(--brand-dark);
     background-color: var(--brand-yellow);
     border-radius: 5px;
     padding: 6px 12px;
     margin: 1.5rem 0;
+    font-weight: bold;
 }
 
 .button:hover {
@@ -107,11 +108,11 @@ ul {
     position: absolute;
     top: 1.5rem;
     padding: 0.5rem 0;
-    background-color: rgb(24, 24, 25, 0.8);
+    background-color: rgb(24, 24, 25, 0.8); /*converted brand-dark to set opacity */
     z-index: 98;
     visibility: hidden;
     opacity: 0; 
-    transition: all, 0.5s;
+    transition: all, 0.5s; /*animation*/
 }
 
 #nav-toggle:checked ~ ul {
@@ -139,7 +140,48 @@ ul li {
 /*  Media queries */
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  /* Navigation */
+    /* Hide Menu Bar Icon */
+    #nav-toggle-icon {
+        visibility: hidden;
+        display: none;
+    }
+    
+    nav {
+        display: flex;
+        align-items: flex-start;
+        padding: 0 0.25rem;
+    }
+    
+    nav>a {
+        justify-self: start;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        visibility: visible;
+        opacity: 1;
+        top:0;
+        z-index: 99;
+        position:relative;
+        background-color: transparent;
+    
+    }
+    
+    ul li {
+        font-size: 1.2rem;
+        padding: 0 0.5rem;
+        margin: 0 ;
+        align-items: center;
+    }
+    
+    ul .button {
+        margin: 0;
+    }
+}
 
 /* Large devices *small laptops, 992px and up) */
 @media screen and (min-width: 992px) {}
