@@ -11,10 +11,16 @@
 --brand-lgrey: #C0C0C0 ; /* light grey */
 }
 
+/* Default overrides */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Global styles */
 body {
     font-family: var(--brand-font);
-    background-color: var(--brand-dark);
+    background-color: var(--brand-dgrey);
 }
 
     /* Link styles */
@@ -35,21 +41,56 @@ a:active {
  nav {
     background-color: var(--brand-dark);
     color: var(--brand-yellow);
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    
 
  }
 
  #nav-toggle-icon {
     font-size: 2.5rem;
+    padding: 0 1rem;
  }
+
  nav ul {
-    list-style: none;  
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 55px;
+    padding: 0.5rem 0;
+    background-color: rgb(24, 24, 25, 0.7);
+    z-index: 99;
+    
+    
  }
  
  nav ul li {
     font-size: 2rem;
  }
 
+#nav-toggle {
+    display: none;
+}
 
+#nav-toggle:checked ul {
+    display: none;
+}
+
+/* Header */
+#bg-img {
+    background: url(../images/bike-pals-hero.png)no-repeat center center/cover;
+    height: 700px;
+    width: 100%;
+    max-width: 820px;
+    position: absolute;
+    z-index: 1;
+
+}
 
 /*  Media queries */
 
