@@ -132,6 +132,15 @@ nav {
 
 }
 
+/* Footer */
+
+footer{
+    background-color: var(--brand-dark);
+    color: var(--brand-lgrey);
+}
+
+
+
 /*  Media queries */
 
 /* Medium devices (tablets, 768px and up) */
@@ -172,10 +181,61 @@ nav {
       #nav-list .button {
           margin: 0;
       }
+
+      /* Footer */
+      #company-logo{
+        order: 1;
+      }
+
+      #social-media{
+        order: 3;
+      }
+
+      #opening-hours{
+        order: 5;
+      }
+
+      #contact-us{
+        order: 2;
+      }
+
+      #find-us{
+        order: 4;
+      }
+
+      #map{
+        order: 6;
+      }
   }
   
   /* Large devices *small laptops, 992px and up) */
-  @media screen and (min-width: 992px) {}
+  @media screen and (min-width: 992px) {
+          /* Footer */
+          #company-logo{
+            order: 1;
+          }
+    
+          #social-media{
+            order: 5;
+          }
+    
+          #opening-hours{
+            order: 2;
+          }
+    
+          #contact-us{
+            order: 3;
+          }
+    
+          #find-us{
+            order: 4;
+          }
+          
+          #map{
+            order: 6;
+          }
+  }
   
+
   /*  XL devices *laptops, 1200px and up) */
   @media screen and (min-width: 1200px) {}
