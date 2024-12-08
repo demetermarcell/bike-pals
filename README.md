@@ -24,7 +24,9 @@ IMG mockups on devices AI generated
 - The navbar elements are responsive to user actions. (on-hover, on-click effects)
 
 ### Landing Page Hero Section
--text comes here
+- Includes a photograph and the mission statement to communicate the vibe and the goal of the company to the user.
+- Responsive across all screen sizes. 
+
 ### Services Section
 -text comes here
 ### Footer
