@@ -141,6 +141,11 @@ nav {
     margin: 1.5rem 0 ;
 }
 
+/* Active navbar menu option style: */
+.active {
+    color: var(--brand-lgrey);
+}
+
 /* Header */
 #bg-img {
     background: url(../images/bike-pals-hero.png)no-repeat center center/cover;
