@@ -37,6 +37,11 @@ a:active {
     color: var(--brand-lgrey);
 }
 
+/* Heading styles */
+h3 {
+    padding: 0.5rem ;
+}
+
  /* Button styles */
 .button {
     color: var(--brand-dark);
@@ -59,6 +64,20 @@ a:active {
     color: var(--brand-dark);
     background-color: var(--brand-lgrey);
     border: 0;
+}
+
+/* Colored Text */
+
+.yellow-text {
+    color: var(--brand-yellow);
+}
+
+.grey-text {
+    color: var(--brand-lgrey);
+}
+
+.dark-text {
+    color: var(--brand-dark);
 }
 
 /* Navigation */
@@ -139,7 +158,22 @@ footer{
     color: var(--brand-lgrey);
 }
 
+#contact-us p {
+    padding:0.3rem 0;
+    margin-bottom: 0.5rem;
+}
 
+/* Opening Hours table styles */
+#contact .table * {
+    background-color: transparent;
+}
+
+#contact .table thead * {
+    color: var(--brand-yellow);
+}
+#contact .table tbody * {
+    color: var(--brand-lgrey);
+}
 
 /*  Media queries */
 
@@ -183,16 +217,12 @@ footer{
       }
 
       /* Footer */
-      #company-logo{
+      #social-media{
         order: 1;
       }
 
-      #social-media{
-        order: 3;
-      }
-
       #opening-hours{
-        order: 5;
+        order: 3;
       }
 
       #contact-us{
@@ -202,21 +232,13 @@ footer{
       #find-us{
         order: 4;
       }
-
-      #map{
-        order: 6;
-      }
   }
   
   /* Large devices *small laptops, 992px and up) */
   @media screen and (min-width: 992px) {
           /* Footer */
-          #company-logo{
-            order: 1;
-          }
-    
           #social-media{
-            order: 5;
+            order: 1;
           }
     
           #opening-hours{
@@ -229,10 +251,6 @@ footer{
     
           #find-us{
             order: 4;
-          }
-          
-          #map{
-            order: 6;
           }
   }
   
