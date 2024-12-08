@@ -152,7 +152,6 @@ nav {
     height: 463px;
     width: 100%;
     z-index: 1;
-
 }
 
 /* Footer */
@@ -219,7 +218,22 @@ footer{
       #nav-list .button {
           margin: 0;
       }
+      /* Hero Section */
+      #mission-statement {
+        
+        background-color: rgb(24, 24, 25, 0.9); /*converted brand-dark to set opacity */
+        text-align: end;
+        position: absolute;
+        top: 280px;
+        max-height: 220px;
+        right: 0px;
+        width: 80%;
+    }
 
+    #services {
+        background-color: var(--brand-dgrey);
+        height: 200px;
+    }
       /* Footer */
       #social-media{
         order: 1;
