@@ -87,7 +87,6 @@ nav {
     display: grid;
     grid-template-columns: 2.5rem auto 2.5rem;
     height: 3.5rem;
-
 }
 
 /* Hide Checkbox */
@@ -140,7 +139,7 @@ nav {
 #nav-list li {
     font-size: 2rem;
     text-align: center;
-    margin: 1.5rem 0;
+    margin: 1.4rem 0;
 }
 
 /* Active navbar menu option style: */
@@ -155,6 +154,14 @@ nav {
     width: 100%;
     z-index: 1;
 }
+
+#mission-statement {
+    background-color: var(--brand-dark);
+    text-align: center;
+    font-size: 80%;
+    padding: 1rem;
+}
+
 
 /* Footer */
 
@@ -296,26 +303,20 @@ footer {
     #hero-img {
         background: url(../images/bike-pals-hero-lg.webp)no-repeat center center/cover;
         height: 988px;
-        max-width: 2560px;
+        width: 100%;
     }
 
     #mission-statement {
         top: 750px;
         max-height: 350px;
-        right: 0px;
         width: 60%;
     }
 
 }
 
-/*  XXXL devices *above 2K screens, 2560px and up) */
-@media screen and (min-width: 2560px) {
-body {
-    max-width: 2560px;
-}
-    /* Header - Hero Section*/
+/*  XXXL devices 2100px and up) */
+@media screen and (min-width: 2100px) {
     #mission-statement {
-        width: 1200px;
-        left: 1360px; /* 2560-1200= 1360px, always in line with the right side of the pic */
+        width: 40%;
     }
 }
