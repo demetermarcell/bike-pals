@@ -39,10 +39,10 @@ a:active {
 
 /* Heading styles */
 h3 {
-    padding: 0.5rem ;
+    padding: 0.5rem;
 }
 
- /* Button styles */
+/* Button styles */
 .button {
     color: var(--brand-dark);
     background-color: var(--brand-yellow);
@@ -120,16 +120,18 @@ nav {
     height: auto;
     position: absolute;
     top: 2rem;
-    background-color: rgb(24, 24, 25, 0.8); /*converted brand-dark to set opacity */
+    background-color: rgb(24, 24, 25, 0.8);
+    /*converted brand-dark to set opacity */
     visibility: hidden;
-    opacity: 0; 
-    transition: all, 0.5s; /*animation*/
+    opacity: 0;
+    transition: all, 0.5s;
+    /*animation*/
     z-index: 98;
     padding-left: 0;
     margin-bottom: 0;
 }
 
-#nav-toggle:checked ~ ul {
+#nav-toggle:checked~ul {
     visibility: visible;
     opacity: 1;
     top: 3.5rem;
@@ -138,7 +140,7 @@ nav {
 #nav-list li {
     font-size: 2rem;
     text-align: center;
-    margin: 1.5rem 0 ;
+    margin: 1.5rem 0;
 }
 
 /* Active navbar menu option style: */
@@ -156,13 +158,13 @@ nav {
 
 /* Footer */
 
-footer{
+footer {
     background-color: var(--brand-dark);
     color: var(--brand-lgrey);
 }
 
 #contact-us p {
-    padding:0.3rem 0;
+    padding: 0.3rem 0;
     margin-bottom: 0.5rem;
 }
 
@@ -174,6 +176,7 @@ footer{
 #contact .table thead * {
     color: var(--brand-yellow);
 }
+
 #contact .table tbody * {
     color: var(--brand-lgrey);
 }
@@ -182,105 +185,113 @@ footer{
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Navigation */
-      /* Hide Menu Bar Icon */
-      #nav-toggle-icon {
-          visibility: hidden;
-          display: none;
-      }
-      
-      nav {
-          display: flex;
-          align-items: flex-start;
-          padding: 0.25rem 0.25rem;
-      }
-      
-      #nav-list {
-          display: flex;
-          justify-content: flex-end;
-          flex-direction: row;
-          visibility: visible;
-          opacity: 1;
-          top:0;
-          z-index: 99;
-          position:relative;
-          background-color: transparent;
-          padding: 0;
-      }
-      
-      #nav-list li {
-          font-size: 1.2rem;
-          padding: 0 0.5rem;
-          margin: 0;
-          align-items: center;
-      }
-      
-      #nav-list .button {
-          margin: 0;
-      }
-      /* Hero Section */
-      #mission-statement {
-        
-        background-color: rgb(24, 24, 25, 0.9); /*converted brand-dark to set opacity */
+    /* Hide Menu Bar Icon */
+    #nav-toggle-icon {
+        visibility: hidden;
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-start;
+        padding: 0.25rem 0.25rem;
+    }
+
+    #nav-list {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+        z-index: 99;
+        position: relative;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    #nav-list li {
+        font-size: 1.2rem;
+        padding: 0 0.5rem;
+        margin: 0;
+        align-items: center;
+    }
+
+    #nav-list .button {
+        margin: 0;
+    }
+
+    /* Header - Hero Section*/
+    #mission-statement {
+
+        background-color: rgb(24, 24, 25, 0.9);
+        /*converted brand-dark to set opacity */
         text-align: end;
         position: absolute;
-        top: 280px;
-        max-height: 220px;
+        top: 260px;
+        max-height: 240px;
         right: 0px;
-        width: 80%;
+        width: 85%;
+        padding: 0.25rem 0.5rem 0.25rem 2rem;
+        margin: 1rem 0;
     }
 
     #services {
         background-color: var(--brand-dgrey);
         height: 200px;
     }
-      /* Footer */
-      #social-media{
+
+    /* Footer */
+    #social-media {
         order: 1;
-      }
+    }
 
-      #opening-hours{
+    #opening-hours {
         order: 3;
-      }
+    }
 
-      #contact-us{
+    #contact-us {
         order: 2;
-      }
+    }
 
-      #find-us{
+    #find-us {
         order: 4;
-      }
-  }
-  
-  /* Large devices *small laptops, 992px and up) */
-  @media screen and (min-width: 992px) {
-          /* Footer */
-          #social-media{
-            order: 1;
-          }
-    
-          #opening-hours{
-            order: 2;
-          }
-    
-          #contact-us{
-            order: 3;
-          }
-    
-          #find-us{
-            order: 4;
-          }
+    }
+}
 
-          /* Map sizing */
+/* Large devices *small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
 
-          #map {
-            max-width: 300px;
-          }
-  }
-  
+    /* Footer */
+    #social-media {
+        order: 1;
+    }
 
-  /*  XL devices *laptops, 1200px and up) */
-  @media screen and (min-width: 1200px) {
+    #opening-hours {
+        order: 2;
+    }
+
+    #contact-us {
+        order: 3;
+    }
+
+    #find-us {
+        order: 4;
+    }
+
+    /* Map sizing */
+
+    #map {
+        max-width: 300px;
+    }
+}
+
+
+/*  XL devices *laptops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
     /* Header - Hero Section*/
     #hero-img {
         background: url(../images/bike-pals-hero-lg.webp)no-repeat center center/cover;
@@ -288,4 +299,22 @@ footer{
         max-width: 2550px;
     }
 
-  }
+    #mission-statement {
+        top: 750px;
+        max-height: 350px;
+        right: 0px;
+        width: 60%;
+    }
+
+}
+
+/*  XXXL devices *above 2K screens, 2550px and up) */
+@media screen and (min-width: 2550px) {
+body {
+    max-width: 2550px;
+}
+    /* Header - Hero Section*/
+    #mission-statement {
+        left: 450px; /* 2550px -2100px = 450px, always in line with the right side of the pic */
+    }
+    }
