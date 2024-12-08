@@ -146,13 +146,13 @@ nav {
     color: var(--brand-lgrey);
 }
 
-/* Header */
-#bg-img {
-    background: url(../images/bike-pals-hero.png)no-repeat center center/cover;
-    height: 700px;
+/* Header - Hero Section*/
+#hero-img {
+    background: url(../images/bike-pals-hero.webp)no-repeat center center/cover;
+    height: 984px;
     width: 100%;
-    max-width: 820px;
-    z-index: 1;
+    max-width: 2550px;
+    z-index: 101;
 
 }
 
