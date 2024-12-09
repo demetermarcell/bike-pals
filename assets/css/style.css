@@ -164,8 +164,25 @@ nav {
 
 /* Main  - Services section */
 
-bg-dark {
+#services h2 {
+    border-top: 3px solid var(--brand-yellow);
+    border-bottom: 3px solid var(--brand-yellow);
+    text-shadow: 0 1px var(--brand-dark) ;
+    margin-bottom: 1rem;
+}
+
+#services .card {
     background-color: var(--brand-dark);
+    border-radius: 5px;
+    padding: 1rem 1.2rem 0 1.2rem;
+    margin: auto;
+}
+#services .card-img-top {
+    border-radius: 5px;
+}
+
+#services .card-body {
+    padding: 1rem 0;
 }
 
 /* Footer */
@@ -250,8 +267,21 @@ footer {
         margin: 1rem 0;
     }
 
-    #services {
-        background-color: var(--brand-dgrey);
+    /* Main  - Services section */
+    #repairs {
+        order: 1;
+    }
+
+    #bikes {
+        order: 3;
+    }
+
+    #parts {
+        order: 4;
+    }
+
+    #stand {
+        order: 2;
     }
 
     /* Footer */
@@ -315,6 +345,23 @@ footer {
         max-height: 350px;
         width: 60%;
     }
+
+    /* Main  - Services section */
+        #repairs {
+            order: 1;
+        }
+    
+        #bikes {
+            order: 2;
+        }
+    
+        #parts {
+            order: 3;
+        }
+    
+        #stand {
+            order: 4;
+        }
 
 }
 
