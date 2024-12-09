@@ -1,4 +1,4 @@
-IMG Bike Pals logo
+![Bike Pals brand Logo](assets/images/logo/bikepals_logo_2.svg =400x)
 
 # Bike Pals
 
@@ -28,7 +28,13 @@ IMG mockups on devices AI generated
 - Responsive across all screen sizes. 
 
 ### Services Section
--text comes here
+- Includes 4 decorative cards to inform the visitor about the services and products our company offers.
+- Services:
+    - Repairs - The shop offers full range of repair and maintenance services. The user can jump to the Prices page selecting the provided link on the card. 
+    - Bikes - The shop keeps an inventory of 40+ bikes.
+    - Components & Apparels - The company distributes everythign a customer needs for his/her bike or for cycling.
+    - Tinker with Us - The company's special feature, to offer bike stands to rent where customers can work on their bike with all necessary tools, grease, cleaners provided. The user can jump to the "Book a Stand" page to make a reservation.
+- The Service cards are responsive on all screen sizes.
 ### Footer
 - Present on all pages, allowing the users to easily extract contact information at any point of their visit on the site.
 - The footer contains the following elements:
@@ -51,19 +57,29 @@ text comes here
 ### Unfixed Bugs
 text comes here
 ## Deployment
-text comes here
+- The site was deployed to GitHub pages as per steps below:
+    - In the GitHub repository navigate to the Settings tab.
+    - Select the Pages option from the "Code and automation" section.
+    - Select the following options and hit Save.
+        - Source: Deploy from a branch
+        - Branch: main
+        - Folder: /(root)
+    - After hitting Save, the first push will be deployed. ( and each push after that)
+    - You can track deployed versions from the GitHub repository by navigating to the Deployments from the right column.
+    
 ## Credits
 ### Content
 - Code for the responsive navbar is based on [Code Institute Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) training project and the following code snipet [LINK](https://www.geeksforgeeks.org/how-to-make-responsive-navbar-menu-in-css/)
-- Code for the responsive Footer section based on:
+- Code for the hero section is based on [Code Institute Love Running](https://github.com/Code-Institute-Solutions/love-running-v3)
+- Code for the responsive Service cards and Footer sections are based on:
     - [Code Institute Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode\) training project
-    - Bootstrap v5.3.3 [Grid](https://getbootstrap.com/docs/5.3/layout/grid/) and [Tables](https://getbootstrap.com/docs/5.3/content/tables/#overview) functions. 
+    - Bootstrap v5.3.3 [Cards](https://getbootstrap.com/docs/5.3/components/card/),[Grid](https://getbootstrap.com/docs/5.3/layout/grid/) and [Tables](https://getbootstrap.com/docs/5.3/content/tables/#overview) functions. 
 - Icons for the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
 ### Media
-- All images were generated with [Midjourney] (https://www.midjourney.com) (prompts by Marcell Demeter)
-- Favicon was generated with [Midjourney] (https://www.midjourney.com) and converted with [Favicon.io](https://favicon.io/)
+- All images were generated with [Midjourney](https://www.midjourney.com) (prompts by Marcell Demeter)
+- Favicon was generated with [Midjourney](https://www.midjourney.com) and converted with [Favicon.io](https://favicon.io/)
 - Logo file and social media icons were created by [Réka Imre](https://www.instagram.com/imreka_works/) based on the AI generated Hero image.
 
 
