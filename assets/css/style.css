@@ -270,6 +270,9 @@ footer {
     }
 
     /* Header - Hero Section*/
+    #hero-img {
+        background: url(../images/bike-pals-hero-md.webp)no-repeat center center/cover;
+    }
     #mission-statement {
 
         background-color: rgb(24, 24, 25, 0.9);
@@ -354,7 +357,6 @@ footer {
     #hero-img {
         background: url(../images/bike-pals-hero-lg.webp)no-repeat center center/cover;
         height: 988px;
-        width: 100%;
     }
 
     #mission-statement {
