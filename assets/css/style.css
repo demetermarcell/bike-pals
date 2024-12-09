@@ -223,6 +223,10 @@ footer {
     color: var(--brand-lgrey);
 }
 
+#map {
+    width: 90%;
+    border: 0;
+}
 /*  Media queries */
 
 /* Medium devices (tablets, 768px and up) */
