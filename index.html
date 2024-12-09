@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta tags for search engines-->
-    <meta name="description" content="Bike Pals. Bicycle Shop in Dublin, Ireland. Bike repairs, used bikes, bicycle parts. Fix your bike with us!">
-    <meta name="keywords" content="bike pals, bicycle, cycling, bikeshop, mountainbike, road bike, commuter bike, Ireland, Dublin, sport">
+    <meta name="description"
+        content="Bike Pals. Bicycle Shop in Dublin, Ireland. Bike repairs, used bikes, bicycle parts. Fix your bike with us!">
+    <meta name="keywords"
+        content="bike pals, bicycle, cycling, bikeshop, mountainbike, road bike, commuter bike, Ireland, Dublin, sport">
     <!--Title-->
     <title>Bike Pals</title>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -39,13 +41,15 @@
             <li><a href="" class="button">Book a Stand</a></li>
         </ul>
     </nav>
-    <!--Header - Hero Section-->
-    <header id="hero">
-        <section>
+    <!--Header / Hero Section-->
+    <header>
+        <section id="hero">
             <div id="hero-img"></div>
             <div id="mission-statement">
-                <h2 class="yellow-text">Bike Pals is more than a bike shop — it’s a community hub for cyclists and tinkerers.</h2>
-                <p class="grey-text">Founded by two lifelong friends with a love for bikes and community, our shop is all about bringing
+                <h2 class="yellow-text">Bike Pals is more than a bike shop — it’s a community hub for cyclists and
+                    tinkerers.</h2>
+                <p class="grey-text">Founded by two lifelong friends with a love for bikes and community, our shop is
+                    all about bringing
                     people together. Here, you’ll find more than tools and repairs; you’ll find shared laughter, great
                     conversations, and a welcoming old-school vibe. Whether you’re fixing a flat, swapping parts, or
                     just hanging out, Bike Pals is your go-to spot to connect, have fun, and keep the wheels spinning.
@@ -53,7 +57,66 @@
             </div>
         </section>
     </header>
-    <main id="services">
+    <!--Services Section / Bootstrap Cards-->
+    <main>
+        <section id="services" class="container section">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Services</h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets/images/bike-pals-prices.webp" class="card-img-top"
+                            alt="Image of a wrench and coins on a table">
+                        <div class="card-body">
+                            <h3 class="card-title">Repairs</h3>
+                            <p class="card-text">With over 10 years of experience, we handle everything from tire
+                                repairs to suspension service with confidence.
+                            </p>
+                            <a href="prices.html">Prices</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets/images/bike-pals-bikes.webp" class="card-img-top"
+                            alt="Image of a mountainbike">
+                        <div class="card-body">
+                            <h3 class="card-title">Bikes</h3>
+                            <p class="card-text">Our shop features an inventory of 40+ new and fully checked and
+                                serviced second-hand bikes. Feel free to visit or reach out for more details!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets/images/bike-pals-parts.webp" class="card-img-top"
+                            alt="Image of a helmet and a crankarm on a table">
+                        <div class="card-body">
+                            <h3 class="card-title">Components & Apparel</h3>
+                            <p class="card-text">In our store you will find well-known as well as lesser-known, but good
+                                quality and value-for-money brands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets/images/bike-pals-bikestand.webp" class="card-img-top"
+                            alt="A bicycle mounted to a bikestand in a workshop">
+                        <div class="card-body">
+                            <h3 class="card-title">Tinker with us</h3>
+                            <p class="card-text">We provide bike stands for booking, so you can work on your bike
+                                yourself.
+                            </p>
+                            <a href="bookastand.html">Book a Stand</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <!-- Footer / contact section / Bootstrap Grid-->
     <footer id="contact" class="mt-auto py-3">
