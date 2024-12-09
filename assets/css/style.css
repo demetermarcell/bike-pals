@@ -167,7 +167,7 @@ nav {
 
 /* Header - Hero Section*/
 #hero-img {
-    background: url(../images/bike-pals-hero-sm-opt.webp)no-repeat center center/cover;
+    background: url(../images/bike-pals-hero-xs.webp)no-repeat center center;
     height: 463px;
     width: 100%;
 }
@@ -234,6 +234,12 @@ footer {
 }
 /*  Media queries */
 
+/* Large Mobiles devices (tablets, 576px and up) */
+@media screen and (min-width: 576px) {
+    #hero-img {
+        background: url(../images/bike-pals-hero-sm.webp)no-repeat center center;}
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -276,7 +282,7 @@ footer {
 
     /* Header - Hero Section*/
     #hero-img {
-        background: url(../images/bike-pals-hero-md-opt.webp)no-repeat center center/cover;
+        background: url(../images/bike-pals-hero-md.webp)no-repeat center center;
     }
     #mission-statement {
 
@@ -360,7 +366,7 @@ footer {
 
     /* Header - Hero Section*/
     #hero-img {
-        background: url(../images/bike-pals-hero-lg-opt.webp)no-repeat center center/cover;
+        background: url(../images/bike-pals-hero-lg.webp)no-repeat center center;
         height: 988px;
     }
 
