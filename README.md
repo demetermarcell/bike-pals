@@ -1,4 +1,4 @@
-![Bike Pals brand Logo](assets/images/logo/bikepals_logo_2.svg =400x)
+<img src="assets/images/logo/bikepals_logo_2.svg" alt="Bike Pals brand logo" width="400" height="300">
 
 # Bike Pals
 
@@ -54,6 +54,8 @@ text comes here
 text comes here
 ### Validator Testing
 text comes here
+### Manual Testing
+text comes here
 ### Unfixed Bugs
 text comes here
 ## Deployment
@@ -75,7 +77,6 @@ text comes here
     - [Code Institute Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode\) training project
     - Bootstrap v5.3.3 [Cards](https://getbootstrap.com/docs/5.3/components/card/),[Grid](https://getbootstrap.com/docs/5.3/layout/grid/) and [Tables](https://getbootstrap.com/docs/5.3/content/tables/#overview) functions. 
 - Icons for the footer were taken from [Font Awesome](https://fontawesome.com/)
-
 
 ### Media
 - All images were generated with [Midjourney](https://www.midjourney.com) (prompts by Marcell Demeter)
