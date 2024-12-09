@@ -162,6 +162,11 @@ nav {
     padding: 1rem;
 }
 
+/* Main  - Services section */
+
+bg-dark {
+    background-color: var(--brand-dark);
+}
 
 /* Footer */
 
@@ -247,7 +252,6 @@ footer {
 
     #services {
         background-color: var(--brand-dgrey);
-        height: 200px;
     }
 
     /* Footer */
