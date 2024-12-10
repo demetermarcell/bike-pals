@@ -89,6 +89,7 @@ text comes here
     - [Code Institute Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode\) training project
     - Bootstrap v5.3.3 [Cards](https://getbootstrap.com/docs/5.3/components/card/),[Grid](https://getbootstrap.com/docs/5.3/layout/grid/) and [Tables](https://getbootstrap.com/docs/5.3/content/tables/#overview) functions. 
 - Icons for the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Code for the Success page is based on [Code Institute Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode\) training project
 
 ### Media
 - All images were generated with [Midjourney](https://www.midjourney.com) (prompts by Marcell Demeter)

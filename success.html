@@ -27,16 +27,16 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
-    <nav>
+    <nav class="sticky-top"> <!--Bootstrap Class-->
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" id="nav-toggle-icon">
             <i class="fa-solid fa-bars"></i>
         </label>
         <a id="nav-logo" href="index.html"><img src="assets/images/logo/bikepals_logo_1.svg" alt="Bike Pals brand logo"
-                height="48"></a>
+                height="48" width="192"></a>
         <ul id="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#services">Services</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
             <li><a href="prices.html">Prices</a></li>
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="bookastand.html" class="button">Book a Stand</a></li>
@@ -46,33 +46,38 @@
     <main id="success" class="container-fluid section text-center py-3 mt-auto">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 bg-brand-dark py-5">
-              <h2 class="display-6 yellow-text">Thank you for your booking!</h2>
-              <p class="lead grey-text">We’ll contact you shortly with the confirmation.</p>
-              <a href="index.html" class="button">Return to Home Page</a>
+                <h2 class="display-6 yellow-text">Thank you for your booking!</h2>
+                <p class="lead grey-text">We’ll contact you shortly with the confirmation.</p>
+                <a href="index.html" class="button">Return to Home Page</a>
             </div>
-          </div>
+        </div>
     </main>
     <!-- Footer / contact section / Bootstrap Grid-->
-    <footer id="contact" class="mt-auto py-3 push-down">
+    <footer id="contact" class="mt-auto py-3">
         <div class="container-fluid text-center">
             <div class="row justify-content-lg-between align-items-center align-items-lg-start">
                 <div id="social-media" class="col-12 col-md-6 col-lg-3">
-                    <img src="assets/images/logo/bikepals_logo_2.svg" alt="Bike Pals brand logo" width="200">
+                    <img src="assets/images/logo/bikepals_logo_2.svg" alt="Bike Pals brand logo" width="200"
+                        height="150">
                     <br>
                     <!--Social Media Links-->
                     <span>
                         <a href="http://youtube.com" target="_blank" rel="noopener"
                             aria-label="Visit our Youtube channel (opens in a new tab)"><img
-                                src="assets/images/icons/bikepals_youtube.svg" alt="Youtube icon" height="50"></a>
+                                src="assets/images/icons/bikepals_youtube.svg" alt="Youtube icon" width="50"
+                                height="50"></a>
                         <a href="http://instagram.com" target="_blank" rel="noopener"
                             aria-label="Visit our Instagram page (opens in a new tab)"><img
-                                src="assets/images/icons/bikepals_insta.svg" alt="Instagram icon" height="50"></a>
+                                src="assets/images/icons/bikepals_insta.svg" alt="Instagram icon" width="50"
+                                height="50"></a>
                         <a href="http://facebook.com" target="_blank" rel="noopener"
                             aria-label="Visit our Facebook page (opens in a new tab)"><img
-                                src="assets/images/icons/bikepals_fb.svg" alt="Facebook icon" height="50"></a>
+                                src="assets/images/icons/bikepals_fb.svg" alt="Facebook icon" width="50"
+                                height="50"></a>
                         <a href="http://tiktok.com" target="_blank" rel="noopener"
                             aria-label="Visit our TokTok channel (opens in a new tab)"><img
-                                src="assets/images/icons/bikepals_tiktok.svg" alt="TikTok icon" height="50"></a>
+                                src="assets/images/icons/bikepals_tiktok.svg" alt="TikTok icon" width="50"
+                                height="50"></a>
                     </span>
                 </div>
                 <div id="opening-hours" class="col-12 col-md-6 col-lg-3">

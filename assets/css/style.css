@@ -239,14 +239,6 @@ footer {
     border: 0;
 }
 
-/* Success */
-
-#success, .push-down {
-    position: relative;
-    z-index: -1;
-    top: 56px;
-}
-
 /*  Media queries */
 
 /* Large Mobiles devices (tablets, 576px and up) */
