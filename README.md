@@ -111,10 +111,19 @@ text comes here
 
 ### Automated Testing
 - Lighthouse Results:
-  - Index:
-  - Prices: 
+  - Index: 
+    - <img src="test/bike-pals-lighthouse-mobile-win-min.png" alt="Lighthouse results mobile Index page" >
+    - <img src="test/bike-pals-lighthouse-desktop-index-win-min.png" alt="Lighthouse results desktop Index page" >
+  - Prices:
+    - <img src="test/bike-pals-lighthouse-mobile-mac-prices-min.png" alt="Lighthouse results mobile Prices page" >
+    - <img src="test/bike-pals-lighthouse-desktop-mac-prices-min.png" alt="Lighthouse results desktop Prices page" >
   - Book a Stand: 
+    - <img src="test/bike-pals-lighthouse-mobile-mac-bookastand-min.png" alt="Lighthouse results mobile Book a Stand page" >
+    - <img src="test/bike-pals-lighthouse-mobile-mac-bookastand-min.png" alt="Lighthouse results mobile Book a Stand page" >
   - Success:
+    - <img src="test/bike-pals-lighthouse-mobile-mac-success-min.png" alt="Lighthouse results mobile Success page" >
+    - <img src="test/bike-pals-lighthouse-mobile-mac-success-min.png" alt="Lighthouse results mobile Success page" >
+
 ### Manual Testing
 
 ### Unfixed Bugs
