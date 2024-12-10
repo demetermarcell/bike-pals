@@ -98,10 +98,10 @@ This website helps people from new joiners to bike enthusiasts to find a place w
 ## Testing
  I have completed a full regression testing, syntax validation and Lighthouse automated testing.
  While manual testing and syntax validation went well, I faced difficulties with Lighthouse.
- Despite all my efforts and consultation with my mentor, Lighthouse gave me inconsistent results on different devices.
+ Despite all my efforts and consultation with my mentor, Lighthouse gave me inconsistent performance results on different devices.
  When tested for mobile on a Macbook Pro the results were insufficient depsite several rounds of image optimization, while desktop test ran on Macbook gave great results. After consulting with my mentor, the mobile test passed on his attempt. I've concluded the testing on 2 more windows pc devices where the results were passing. I could not find the root cause of this issue, despite reading the documentation on Largest Contentful Paint. All tests were done in an incognito window. Lighthouse tests were ran on Firefox, Brave and Google Chrome browsers. Please find screenshots on all tests ran in the "[test](test/)" folder of this repository.
  Please see the detailed test documentation and their results below:
- 
+
 ### Validator Testing
  - W3C HTML Validator Results: All Passed
   - Index: [LINK](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Findex.html)
@@ -151,11 +151,20 @@ This website helps people from new joiners to bike enthusiasts to find a place w
 | 16 | Testing Gold package modal on prices.html        | Modal pops up when selecting the services                                            | Pass   |
 | 17 | Testing Platinum package modal on prices.html    | Modal pops up when selecting the services                                            | Pass   |
 
-
 ### Unfixed Bugs
  - embeded google maps code drops errors in the console - external code, can't be fixed 
  - no known bug related to the site and it's code
 ## Deployment
+### Cloning Repository / Local Deployment
+- The repository was cloned to my local machine as per steps below:
+    - Installed GitHub desktop Client to my computer
+    - Signed in to my GitHub account through the Client
+    - Selected Clone Repository from File
+    - Selected the Bike Pals project repository and the local path and hit Clone button.
+
+    This way I could run the project locally from my machine.
+
+### Publishing 
 - The site was deployed to GitHub pages as per steps below:
     - In the GitHub repository navigate to the Settings tab.
     - Select the Pages option from the "Code and automation" section.
@@ -189,5 +198,3 @@ This website helps people from new joiners to bike enthusiasts to find a place w
 - Favicon was generated with [Midjourney](https://www.midjourney.com) and converted with [Favicon.io](https://favicon.io/)
 - Logo file and social media icons were created by [Réka Imre](https://www.instagram.com/imreka_works/) based on the AI generated Hero image.
 - Mockups were created by Marcell Demeter
-
-
