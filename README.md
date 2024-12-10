@@ -11,6 +11,8 @@ IMG mockups on devices AI generated
 
 ## Features
 
+- The project was created based on the [Bike Pals project board](https://github.com/users/demetermarcell/projects/3).
+
 ### Navigation Bar
 - Present on all pages, allowing users to navigate on the site.
 - Navbar contains the following elements:
@@ -47,7 +49,20 @@ IMG mockups on devices AI generated
 - Clicking the email addresss triggers the mail client.
 
 ### Prices
--text comes here
+-Includes a price table with categorized repairs for easy understanding for the user.
+    - The table has 3 columns: 
+        - Category 
+        - Service 
+        - Price
+    - The table has 6 categories:
+        - Packages
+        - Drivetrain
+        - Wheel
+        - Suspension
+        - Brakes
+        - Other
+-Includes Modal windows to describe what's included in the  service packages.
+
 ### Book a Stand
 - Includes a photograph with the description and price of the service to inform the user.
 - Includes a Form that allows the user to make a reservation on the service.
@@ -83,17 +98,26 @@ text comes here
     
 ## Credits
 ### Content
+- Text content was created by Marcell Demeter with the aid of [ChatGPT](https://chatgpt.com/)
+- User stories were created by Marcell Demeter
 - Code for the responsive navbar is based on [Code Institute Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) training project and the following code snipet [LINK](https://www.geeksforgeeks.org/how-to-make-responsive-navbar-menu-in-css/)
 - Code for the hero section is based on [Code Institute Love Running](https://github.com/Code-Institute-Solutions/love-running-v3)
 - Code for the responsive Service cards and Footer sections are based on:
     - [Code Institute Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode\) training project
-    - Bootstrap v5.3.3 [Cards](https://getbootstrap.com/docs/5.3/components/card/),[Grid](https://getbootstrap.com/docs/5.3/layout/grid/) and [Tables](https://getbootstrap.com/docs/5.3/content/tables/#overview) functions. 
+    - Bootstrap v5.3.3 [Cards](https://getbootstrap.com/docs/5.3/components/card/),[Grid](https://getbootstrap.com/docs/5.3/layout/grid/) and [Tables](https://getbootstrap.com/docs/5.3/content/tables/) functions. 
 - Icons for the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Code for the Success page is based on [Code Institute Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode\) training project
+- Code for the Success page is based on [Code Institute Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode\) training project.
+- Code for the Book a Stand page is based on:
+    - [Code Institute Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode\) training project
+    - Bootstrap v5.3.3 [Forms](https://getbootstrap.com/docs/5.3/forms/overview/) function
+- Code for the Prices section is based on Bootstrap v5.3.3:
+    - [Tables](https://getbootstrap.com/docs/5.3/content/tables/) function
+    - [Modal](https://getbootstrap.com/docs/5.3/components/modal/) function
 
 ### Media
 - All images were generated with [Midjourney](https://www.midjourney.com) (prompts by Marcell Demeter)
 - Favicon was generated with [Midjourney](https://www.midjourney.com) and converted with [Favicon.io](https://favicon.io/)
 - Logo file and social media icons were created by [Réka Imre](https://www.instagram.com/imreka_works/) based on the AI generated Hero image.
+- Mockups were created by Marcell Demeter
 
 
