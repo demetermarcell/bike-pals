@@ -49,7 +49,19 @@ IMG mockups on devices AI generated
 ### Prices
 -text comes here
 ### Book a Stand
-text comes here
+- Includes a photograph with the description and price of the service to inform the user.
+- Includes a Form that allows the user to make a reservation on the service.
+- The Form has the following attributes:
+ - Name - text
+ - Email - email
+ - Phone - number
+ - Date - date picker
+ - Time - dropdown
+ - Hours - dropdown
+- All form attributes are mandatory.
+- When the user fills the form correctly and submits it, he/she gets redirected to the Success page.
+- Both pages are responsive on all screen sizes.
+
 ## Testing
 text comes here
 ### Validator Testing
