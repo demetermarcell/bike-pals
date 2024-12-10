@@ -96,7 +96,12 @@ This website helps people from new joiners to bike enthusiasts to find a place w
 <img src="screenshot/success-min.png" alt="Success page view" >
 
 ## Testing
-text comes here
+ I have completed a full regression testing, syntax validation and Lighthouse automated testing.
+ While manual testing and syntax validation went well, I faced difficulties with Lighthouse.
+ Despite all my efforts and consultation with my mentor, Lighthouse gave me inconsistent results on different devices.
+ When tested for mobile on a Macbook Pro the results were insufficient depsite several rounds of image optimization, while desktop test ran on Macbook gave great results. After consulting with my mentor, the mobile test passed on his attempt. I've concluded the testing on 2 more windows pc devices where the results were passing. I could not find the root cause of this issue, despite reading the documentation on Largest Contentful Paint. All tests were done in an incognito window. Lighthouse tests were ran on Firefox, Brave and Google Chrome browsers. Please find screenshots on all tests ran in the "[test](test/)" folder of this repository.
+ Please see the detailed test documentation and their results below:
+ 
 ### Validator Testing
  - W3C HTML Validator Results: All Passed
   - Index: [LINK](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Findex.html)
@@ -126,8 +131,30 @@ text comes here
 
 ### Manual Testing
 
+| #  | Test Case                                         | Expected Result                                                                       | Result |
+|----|---------------------------------------------------|---------------------------------------------------------------------------------------|--------|
+| 1  | Testing navbar links on index.html               | As per user story test cases                                                         | Pass   |
+| 2  | Testing navbar links on prices.html              | As per user story test cases                                                         | Pass   |
+| 3  | Testing navbar links on bookastand.html          | As per user story test cases                                                         | Pass   |
+| 4  | Testing navbar links on success.html             | As per user story test cases                                                         | Pass   |
+| 5  | Testing social media links on index.html         | Opening social media sites in new tab                                                | Pass   |
+| 6  | Testing social media links on prices.html        | Opening social media sites in new tab                                                | Pass   |
+| 7  | Testing social media links on bookastand.html    | Opening social media sites in new tab                                                | Pass   |
+| 8  | Testing social media links on success.html       | Opening social media sites in new tab                                                | Pass   |
+| 9  | Testing services price card link on index.html   | Redirecting user to prices.html                                                      | Pass   |
+| 10 | Testing services book a stand card link on index.html | Redirecting user to bookastand.html                                                 | Pass   |
+| 11 | Testing form validation with incomplete data on bookastand.html | System blocks user to submit the form without filling all the mandatory attributes | Pass   |
+| 12 | Testing form validation with complete data on bookastand.html | User gets redirected to success.html                                               | Pass   |
+| 13 | Testing Return to Home Page button on success.html | User gets redirected to index.html                                                 | Pass   |
+| 14 | Testing Bronze package modal on prices.html      | Modal pops up when selecting the services                                            | Pass   |
+| 15 | Testing Silver package modal on prices.html      | Modal pops up when selecting the services                                            | Pass   |
+| 16 | Testing Gold package modal on prices.html        | Modal pops up when selecting the services                                            | Pass   |
+| 17 | Testing Platinum package modal on prices.html    | Modal pops up when selecting the services                                            | Pass   |
+
+
 ### Unfixed Bugs
-text comes here
+ - embeded google maps code drops errors in the console - external code, can't be fixed 
+ - no known bug related to the site and it's code
 ## Deployment
 - The site was deployed to GitHub pages as per steps below:
     - In the GitHub repository navigate to the Settings tab.
