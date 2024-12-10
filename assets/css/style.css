@@ -95,10 +95,10 @@ nav {
     display: grid;
     grid-template-columns: 2.5rem auto 2.5rem;
     height: 3.5rem;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 /* Hide Checkbox */
@@ -171,7 +171,8 @@ nav {
     white-space: nowrap;
 }
 
-/* Header - Hero Section*/
+
+/* Header - Landing Page Hero Section*/
 #hero-img {
     background: url(../images/bike-pals-hero-xs.webp)no-repeat center center;
     height: 463px;
@@ -239,12 +240,37 @@ footer {
     border: 0;
 }
 
+/* Book a Stand */
+
+/* Hero Section */
+#stand-hero-img {
+    background: url(../images/bike-pals-bikestand-hero-xs.webp)no-repeat center center;
+    height: 463px;
+    width: 100%;
+}
+
+#stand-description {
+    background-color: var(--brand-dark);
+    text-align: center;
+    padding: 1rem;
+}
+
+
 /*  Media queries */
 
 /* Large Mobiles devices (tablets, 576px and up) */
 @media screen and (min-width: 576px) {
+
+/* Landing Page Hero Section*/
     #hero-img {
-        background: url(../images/bike-pals-hero-sm.webp)no-repeat center center;}
+        background: url(../images/bike-pals-hero-sm.webp)no-repeat center center;
+    }
+
+/* Book a Stand - Hero Section */
+#stand-hero-img {
+    background: url(../images/bike-pals-bikestand-hero-sm.webp)no-repeat center center;
+}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -287,10 +313,11 @@ footer {
         margin: 0;
     }
 
-    /* Header - Hero Section*/
+    /* Landing Page Hero Section*/
     #hero-img {
         background: url(../images/bike-pals-hero-md.webp)no-repeat center center;
     }
+
     #mission-statement {
 
         background-color: rgb(24, 24, 25, 0.9);
@@ -338,6 +365,25 @@ footer {
     #find-us {
         order: 4;
     }
+
+    /* Book a Stand - Hero Section */
+#stand-hero-img {
+    background: url(../images/bike-pals-bikestand-hero-md.webp)no-repeat center center;
+}
+
+#stand-description {
+
+    background-color: rgb(24, 24, 25, 0.9);
+    /*converted brand-dark to set opacity */
+    text-align: start;
+    position: absolute;
+    top: 190px;
+    max-height: 305px;
+    width: 40%;
+    padding: 0.25rem 0.5rem 0.25rem 2rem;
+    margin: 1rem 0;
+}
+
 }
 
 /* Large devices *small laptops, 992px and up) */
@@ -399,12 +445,34 @@ footer {
     #stand {
         order: 4;
     }
+    
+        #mission-statement {
+            top: 750px;
+            max-height: 350px;
+            width: 60%;
+        }
+
+/* Book a Stand - Hero Section */
+#stand-hero-img {
+    background: url(../images/bike-pals-bikestand-hero-lg.webp)no-repeat center center;
+    height: 988px;
+}
+
+#stand-description {
+    top: 770px;
+    max-height: 305px;
+}
 
 }
 
 /*  XXXL devices 2100px and up) */
 @media screen and (min-width: 2100px) {
+    /* Landing Page Hero Section*/
     #mission-statement {
         width: 40%;
+    }
+    /* Book a Stand - Hero Section */
+    #stand-description {
+        top: 820px;
     }
 }
