@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Head-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta tags for search engines-->
-    <meta name="description"
-        content="Bike Pals. Bicycle Shop in Dublin, Ireland.">
+    <meta name="description" content="Bike Pals. Bicycle Shop in Dublin, Ireland.">
     <meta name="keywords"
         content="bike pals, bicycle, cycling, bikeshop, mountainbike, road bike, commuter bike, Ireland, Dublin, sport">
     <!--Title-->
@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <!--Body-->
+
 <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
     <nav>
@@ -32,7 +33,7 @@
             <i class="fa-solid fa-bars"></i>
         </label>
         <a id="nav-logo" href="index.html"><img src="assets/images/logo/bikepals_logo_1.svg" alt="Bike Pals brand logo"
-            height="48"></a>
+                height="48"></a>
         <ul id="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#services">Services</a></li>
@@ -41,19 +42,22 @@
             <li><a href="bookastand.html" class="button">Book a Stand</a></li>
         </ul>
     </nav>
-    <!--Header-->
-    <header>
-    </header>
-    <!--Main-->
-    <main>
+    <!--Main / Success message-->
+    <main id="success" class="container-fluid section text-center py-3 mt-auto">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 bg-brand-dark py-5">
+              <h2 class="display-6 yellow-text">Thank you for your booking!</h2>
+              <p class="lead grey-text">We’ll contact you shortly with the confirmation.</p>
+              <a href="index.html" class="button">Return to Home Page</a>
+            </div>
+          </div>
     </main>
     <!-- Footer / contact section / Bootstrap Grid-->
-    <footer id="contact" class="mt-auto py-3">
+    <footer id="contact" class="mt-auto py-3 push-down">
         <div class="container-fluid text-center">
             <div class="row justify-content-lg-between align-items-center align-items-lg-start">
                 <div id="social-media" class="col-12 col-md-6 col-lg-3">
-                    <img src="assets/images/logo/bikepals_logo_2.svg" alt="Bike Pals brand logo"
-                        width="200">
+                    <img src="assets/images/logo/bikepals_logo_2.svg" alt="Bike Pals brand logo" width="200">
                     <br>
                     <!--Social Media Links-->
                     <span>
@@ -112,8 +116,8 @@
                 <div id="find-us" class="col-12 col-md-6 col-lg-3">
                     <h3 class="yellow-text">Find Us</h3>
                     <!--Google Maps iframe-->
-                    <iframe id="map" src="https://tinyurl.com/4bk863zp"
-                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    <iframe id="map" src="https://tinyurl.com/4bk863zp" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
                         title="Check our location on Google Maps (opens in a new tab)"></iframe>
                 </div>
             </div>
@@ -126,4 +130,5 @@
     <!--FontAwesome Kit-->
     <script src="https://kit.fontawesome.com/0ba1fb8540.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

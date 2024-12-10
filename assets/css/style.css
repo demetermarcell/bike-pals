@@ -82,6 +82,12 @@ h3 {
     color: var(--brand-dark);
 }
 
+/* Background Colors */
+
+.bg-brand-dark {
+    background-color: var(--brand-dark);
+}
+
 /* Navigation */
 nav {
     background-color: var(--brand-dark);
@@ -232,6 +238,15 @@ footer {
     width: 90%;
     border: 0;
 }
+
+/* Success */
+
+#success, .push-down {
+    position: relative;
+    z-index: -1;
+    top: 56px;
+}
+
 /*  Media queries */
 
 /* Large Mobiles devices (tablets, 576px and up) */
