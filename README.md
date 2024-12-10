@@ -7,7 +7,7 @@
 
 This website helps people from new joiners to bike enthusiasts to find a place where they can buy and repair their bikes while joining to the cycling community. 
 
-IMG mockups on devices AI generated
+<img src="screenshot/responsive-min.png" alt="Responsive Mockups" >
 
 ## Features
 
@@ -25,9 +25,14 @@ IMG mockups on devices AI generated
 - The navbar is responsive across all screen sizes.
 - The navbar elements are responsive to user actions. (on-hover, on-click effects)
 
+<img src="screenshot/navbar-desktop-min.png" alt="Desktop Navbar" >
+<img src="screenshot/navbar-mobile-min.png" alt="Mobile Navbar" >
+
 ### Landing Page Hero Section
 - Includes a photograph and the mission statement to communicate the vibe and the goal of the company to the user.
 - Responsive across all screen sizes. 
+
+<img src="screenshot/hero-min.png" alt="Hero Section" >
 
 ### Services Section
 - Includes 4 decorative cards to inform the visitor about the services and products our company offers.
@@ -37,6 +42,10 @@ IMG mockups on devices AI generated
     - Components & Apparels - The company distributes everythign a customer needs for his/her bike or for cycling.
     - Tinker with Us - The company's special feature, to offer bike stands to rent where customers can work on their bike with all necessary tools, grease, cleaners provided. The user can jump to the "Book a Stand" page to make a reservation.
 - The Service cards are responsive on all screen sizes.
+
+<img src="screenshot/services-1x4-min.png" alt="Services desktop view" >
+<img src="screenshot/services-2x2-min.png" alt="Services mobile view" >
+
 ### Footer
 - Present on all pages, allowing the users to easily extract contact information at any point of their visit on the site.
 - The footer contains the following elements:
@@ -47,6 +56,9 @@ IMG mockups on devices AI generated
  - Find Us - embeded google maps iframe to visually support clients to find the shop.
 - The footer section is responsive on all screen sizes.
 - Clicking the email addresss triggers the mail client.
+
+<img src="screenshot/footer-1x4-min.png" alt="Footer desktop view" >
+<img src="screenshot/footer-2x2-min.png" alt="Footer dekstop view" >
 
 ### Prices
 -Includes a price table with categorized repairs for easy understanding for the user.
@@ -63,6 +75,9 @@ IMG mockups on devices AI generated
         - Other
 -Includes Modal windows to describe what's included in the  service packages.
 
+<img src="screenshot/prices-min.png" alt="Prices screen view" >
+<img src="screenshot/prices-modal-min.png" alt="Prices modal view" >
+
 ### Book a Stand
 - Includes a photograph with the description and price of the service to inform the user.
 - Includes a Form that allows the user to make a reservation on the service.
@@ -77,12 +92,31 @@ IMG mockups on devices AI generated
 - When the user fills the form correctly and submits it, he/she gets redirected to the Success page.
 - Both pages are responsive on all screen sizes.
 
+<img src="screenshot/bookastand-min.png" alt="Book a Stand screen view" >
+<img src="screenshot/success-min.png" alt="Success page view" >
+
 ## Testing
 text comes here
 ### Validator Testing
-text comes here
+ - W3C HTML Validator Results: All Passed
+  - Index: [LINK](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Findex.html)
+  - Prices: [LINK](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Fprices.html)
+  - Book a Stand: [LINK](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Fbookastand.html)
+  - Success: [LINK](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Fsuccess.html)
+- CSS Validator Results:
+  - Index: [LINK](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Findex.html&usermedium=all&vextwarning=&warning=1)
+  - Prices: [LINK](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Fprices.html&usermedium=all&vextwarning=&warning=1)
+  - Book a Stand: [LINK](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Fbookastand.html&usermedium=all&vextwarning=&warning=1)
+  - Success: [LINK](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fdemetermarcell.github.io%2Fbike-pals%2Fsuccess.html&usermedium=all&vextwarning=&warning=1)
+
+### Automated Testing
+- Lighthouse Results:
+  - Index:
+  - Prices: 
+  - Book a Stand: 
+  - Success:
 ### Manual Testing
-text comes here
+
 ### Unfixed Bugs
 text comes here
 ## Deployment
