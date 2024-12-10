@@ -26,26 +26,187 @@
 <!--Body-->
 <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
-    <nav>
+    <nav class="sticky-top"> <!--Bootstrap Class-->
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" id="nav-toggle-icon">
             <i class="fa-solid fa-bars"></i>
         </label>
         <a id="nav-logo" href="index.html"><img src="assets/images/logo/bikepals_logo_1.svg" alt="Bike Pals brand logo"
-            height="48"></a>
+                height="48" width="192"></a>
         <ul id="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#services">Services</a></li>
-            <li><a class="active" href="prices.html">Prices</a></li>
+            <li><a class="active"  href="prices.html">Prices</a></li>
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="bookastand.html" class="button">Book a Stand</a></li>
         </ul>
     </nav>
     <!--Header-->
-    <header>
+    <header class="p-3 m3">
+        <h1 class="text-center yellow-text fw-semibold">Our Prices:</h1>
     </header>
     <!--Main-->
-    <main>
+    <main id="our-prices" class="mx-5 mb-3">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="fs-5">Category</th>
+                    <th class="fs-5">Service</th>
+                    <th class="text-end fs-5">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Packages -->
+                <tr>
+                    <td class="fw-semibold" rowspan="4">Packages</td>
+                    <td><span class="modal-link" data-bs-toggle="modal" data-bs-target="#bronze-modal">Bronze</span></td>
+                    <td class="text-end">€50</td>
+                </tr>
+                <tr>
+                    <td><span class="modal-link" data-bs-toggle="modal" data-bs-target="#silver-modal">Silver</span></td>
+                    <td class="text-end">€75</td>
+                </tr>
+                <tr>
+                    <td><span class="modal-link" data-bs-toggle="modal" data-bs-target="#gold-modal">Gold</span></td>
+                    <td class="text-end">€100</td>
+                </tr>
+                <tr>
+                    <td><span class="modal-link" data-bs-toggle="modal" data-bs-target="#platinum-modal">Platinum</span></td>
+                    <td class="text-end">€250</td>
+                </tr>
+                <!-- Drivetrain -->
+                <tr>
+                    <td class="fw-semibold" rowspan="9">Drivetrain</td>
+                    <td>Rear Derailleur adjustment</td>
+                    <td class="text-end">€10</td>
+                </tr>
+                <tr>
+                    <td>Front Derailleur adjustment</td>
+                    <td class="text-end">€5</td>
+                </tr>
+                <tr>
+                    <td>Derailleur replacement</td>
+                    <td class="text-end">€10</td>
+                </tr>
+                <tr>
+                    <td>Pulley replacement</td>
+                    <td class="text-end">€15</td>
+                </tr>
+                <tr>
+                    <td>Cable replacement</td>
+                    <td class="text-end">€20</td>
+                </tr>
+                <tr>
+                    <td>Shifter replacement</td>
+                    <td class="text-end">€10</td>
+                </tr>
+                <tr>
+                    <td>Chainring replacement</td>
+                    <td class="text-end">€20</td>
+                </tr>
+                <tr>
+                    <td>Chain lubrication</td>
+                    <td class="text-end">€5</td>
+                </tr>
+                <tr>
+                    <td>Chain replacement</td>
+                    <td class="text-end">€5</td>
+                </tr>
+                <!-- Wheel -->
+                <tr>
+                    <td class="fw-semibold" rowspan="5">Wheel</td>
+                    <td>Puncture repair with inner tube</td>
+                    <td class="text-end">€15</td>
+                </tr>
+                <tr>
+                    <td>Puncture repair tubeless</td>
+                    <td class="text-end">€20</td>
+                </tr>
+                <tr>
+                    <td>Wheel true</td>
+                    <td class="text-end">€20</td>
+                </tr>
+                <tr>
+                    <td>Tyre change normal</td>
+                    <td class="text-end">€10</td>
+                </tr>
+                <tr>
+                    <td>Tyre change tubeless</td>
+                    <td class="text-end">€15</td>
+                </tr>
+                <!-- Suspension -->
+                <tr>
+                    <td class="fw-semibold" rowspan="5">Suspension</td>
+                    <td>SAG adjustment</td>
+                    <td class="text-end">€5</td>
+                </tr>
+                <tr>
+                    <td>Seal replacement</td>
+                    <td class="text-end">€50</td>
+                </tr>
+                <tr>
+                    <td>Oil change</td>
+                    <td class="text-end">€40</td>
+                </tr>
+                <tr>
+                    <td>Damper Tune Fork</td>
+                    <td class="text-end">€90</td>
+                </tr>
+                <tr>
+                    <td>Damper Tune Shock</td>
+                    <td class="text-end">€110</td>
+                </tr>
+                <!-- Brakes -->
+                <tr>
+                    <td class="fw-semibold" rowspan="5">Brakes</td>
+                    <td>Disk Brake adjustment</td>
+                    <td class="text-end">€15</td>
+                </tr>
+                <tr>
+                    <td>Rim Brake adjustment</td>
+                    <td class="text-end">€10</td>
+                </tr>
+                <tr>
+                    <td>Brake pad replacement</td>
+                    <td class="text-end">€10</td>
+                </tr>
+                <tr>
+                    <td>Brake bleeding</td>
+                    <td class="text-end">€15</td>
+                </tr>
+                <tr>
+                    <td>Cable replacement</td>
+                    <td class="text-end">€25</td>
+                </tr>
+                <!-- Other -->
+                <tr>
+                    <td class="fw-semibold" rowspan="6">Other</td>
+                    <td>Seat height adjustment</td>
+                    <td class="text-end">€5</td>
+                </tr>
+                <tr>
+                    <td>Grip replacement</td>
+                    <td class="text-end">€5</td>
+                </tr>
+                <tr>
+                    <td>Handlebar/stem replacement</td>
+                    <td class="text-end">€10</td>
+                </tr>
+                <tr>
+                    <td>Boxed Bike build</td>
+                    <td class="text-end">€60</td>
+                </tr>
+                <tr>
+                    <td>Mudguard installment</td>
+                    <td class="text-end">€10</td>
+                </tr>
+                <tr>
+                    <td>Bikerack installment</td>
+                    <td class="text-end">€15</td>
+                </tr>
+            </tbody>
+        </table>
+        
     </main>
     <!-- Footer / contact section / Bootstrap Grid-->
     <footer id="contact" class="mt-auto py-3">
@@ -53,22 +214,22 @@
             <div class="row justify-content-lg-between align-items-center align-items-lg-start">
                 <div id="social-media" class="col-12 col-md-6 col-lg-3">
                     <img src="assets/images/logo/bikepals_logo_2.svg" alt="Bike Pals brand logo"
-                        width="200">
+                        width="200" height="150">
                     <br>
                     <!--Social Media Links-->
                     <span>
                         <a href="http://youtube.com" target="_blank" rel="noopener"
                             aria-label="Visit our Youtube channel (opens in a new tab)"><img
-                                src="assets/images/icons/bikepals_youtube.svg" alt="Youtube icon" height="50"></a>
+                                src="assets/images/icons/bikepals_youtube.svg" alt="Youtube icon" width="50" height="50" ></a>
                         <a href="http://instagram.com" target="_blank" rel="noopener"
                             aria-label="Visit our Instagram page (opens in a new tab)"><img
-                                src="assets/images/icons/bikepals_insta.svg" alt="Instagram icon" height="50"></a>
+                                src="assets/images/icons/bikepals_insta.svg" alt="Instagram icon" width="50" height="50"></a>
                         <a href="http://facebook.com" target="_blank" rel="noopener"
                             aria-label="Visit our Facebook page (opens in a new tab)"><img
-                                src="assets/images/icons/bikepals_fb.svg" alt="Facebook icon" height="50"></a>
+                                src="assets/images/icons/bikepals_fb.svg" alt="Facebook icon" width="50" height="50"></a>
                         <a href="http://tiktok.com" target="_blank" rel="noopener"
                             aria-label="Visit our TokTok channel (opens in a new tab)"><img
-                                src="assets/images/icons/bikepals_tiktok.svg" alt="TikTok icon" height="50"></a>
+                                src="assets/images/icons/bikepals_tiktok.svg" alt="TikTok icon" width="50" height="50"></a>
                     </span>
                 </div>
                 <div id="opening-hours" class="col-12 col-md-6 col-lg-3">
@@ -119,6 +280,76 @@
             </div>
         </div>
     </footer>
+    <!--Modals-->
+    <!--Bronze Modal-->
+<div class="modal fade" id="bronze-modal" tabindex="-1" aria-labelledby="Bronze-modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="bronze-modalLabel">Bronze Package</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Includes: General check, Brake and derailleur adjustment, Tyre pressure check,  Hubs and Headset bearing  check, Chain lubrication.
+        </div>
+        <div class="modal-footer">
+            <p>€50 + parts</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Silver Modal-->
+  <div class="modal fade" id="silver-modal" tabindex="-1" aria-labelledby="silver-modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="silver-modalLabel">Silver Package</h1>
+          <button type="button" class="btn-close modal-button " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Includes: General check, Brake and derailleur adjustment, Tyre pressure check,  Hubs and Headset bearing  check, Chain lubrication, Wheel truing.
+        </div>
+        <div class="modal-footer">
+            <p>€75 + parts</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gold Modal -->
+  <div class="modal fade" id="gold-modal" tabindex="-1" aria-labelledby="gold-modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="gold-modalLabel">Gold Package</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Includes: General check, Brake adjustment with new pads, Derailleur adjustment with new cables and pulley cleaning/change if necessary, Tyre pressure check,  Hubs and Headset, Bottom Bracket bearing  check, Chain lubrication, Wheel truing. 
+        </div>
+        <div class="modal-footer">
+            <p>€100 + parts</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Platinum Modal -->
+<div class="modal fade" id="platinum-modal" tabindex="-1" aria-labelledby="platinum-modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="platinum-modalLabel">Platinum Package</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Includes: General check, Brake adjustment with new pads, Derailleur adjustment with new cables and pulley cleaning/change if necessary, Tyre pressure check,  Hubs and Headset, Bottom Bracket bearing  check, Chain lubrication, Wheel truing, Fork and Shock service, Pivot Bearing check. 
+        </div>
+        <div class="modal-footer">
+            <p>€250 + parts</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
     <!--Bootstrap JS script-->
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

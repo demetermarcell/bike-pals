@@ -74,6 +74,14 @@ h3 {
     color: var(--brand-yellow);
 }
 
+.yellow-text:focus {
+    color: var(--brand-yellow);
+}
+
+.yellow-text:not(.collapsed){
+    color: var(--brand-yellow);
+}
+
 .grey-text {
     color: var(--brand-lgrey);
 }
@@ -89,7 +97,7 @@ h3 {
 /* Background Colors */
 
 .bg-brand-dark {
-    background-color: var(--brand-dark);
+    background-color: var(--brand-dark) !important;
 }
 
 /* Navigation */
@@ -277,6 +285,49 @@ footer {
     font-size: 1.75rem;
 }
 
+/* Prices */
+
+#our-prices .table * {
+    background-color: var(--brand-lgrey);
+    border: 1px solid var(--brand-dark);
+}
+
+#our-prices .table thead * {
+    background-color: var(--brand-dark);
+    color: var(--brand-yellow);
+}
+
+#our-prices .table tbody * {
+    color: var(--brand-dark);
+}
+
+/* Modal */
+
+.modal-link {
+    text-decoration: underline;
+    font-weight: 700;
+    border: 0 !important;
+    cursor: pointer;
+}
+
+.modal-link:hover {
+    color: var(--brand-dgrey);
+}
+
+.modal-link:active {
+    color: var(--brand-dark);
+}
+
+ .modal-content {
+    background-color: var(--brand-lgrey);
+    border-color: var(--brand-dark);
+    color: var(--brand-dark);
+}
+
+.modal-header, .modal-footer {
+    border-color: var(--brand-dark);
+    font-weight: 700;
+}
 
 /*  Media queries */
 
