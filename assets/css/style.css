@@ -78,6 +78,10 @@ h3 {
     color: var(--brand-lgrey);
 }
 
+.grey-text:focus {
+    color: var(--brand-lgrey);
+}
+
 .dark-text {
     color: var(--brand-dark);
 }
@@ -255,6 +259,24 @@ footer {
     padding: 1rem;
 }
 
+/* Form Section */
+#booking-form h2 {
+    border-top: 3px solid var(--brand-yellow);
+    border-bottom: 3px solid var(--brand-yellow);
+    text-shadow: 0 1px var(--brand-dark);
+    margin: 1rem;
+}
+
+.form-cell {
+    background-color: var(--brand-dgrey) !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.button-size {
+    font-size: 1.75rem;
+}
+
 
 /*  Media queries */
 
@@ -384,6 +406,11 @@ footer {
     margin: 1rem 0;
 }
 
+/* Form Section */
+.button-size {
+    font-size: 1.5rem;
+}
+
 }
 
 /* Large devices *small laptops, 992px and up) */
@@ -461,6 +488,11 @@ footer {
 #stand-description {
     top: 770px;
     max-height: 305px;
+}
+
+/* Form Section */
+.button-size {
+    font-size: 1.25rem;
 }
 
 }
